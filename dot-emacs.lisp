@@ -60,7 +60,7 @@
         (set-buffer buffer)
         (revert-buffer t t t))
       (setq list (cdr list))
-p      (setq buffer (car list))))
+      (setq buffer (car list))))
   (message "Refreshed open files"))
 (global-set-key [(control shift tab)] 'refresh-all-buffers)
 
